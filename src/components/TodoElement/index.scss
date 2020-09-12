@@ -1,0 +1,38 @@
+.Card {
+  width: 100%;
+  height: min-content;
+  background-color: #ccc;
+  border-radius: 15px;
+
+
+  h2{
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+
+  .Container{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    padding-bottom: 10px;
+    // display: none;
+
+    p{
+      width: 95%;
+      height: min-content ;
+    }
+
+    .close{
+      padding: 10px;
+      border-radius: 10px;
+    }
+  }
+
+  .invisible{
+    display: none;
+  }
+
+}
+

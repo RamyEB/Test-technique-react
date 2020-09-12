@@ -1,0 +1,9 @@
+.TodosContainer, .HeaderContainer, .TodosListContainer{
+    // border: solid red 2px;
+}
+
+.HeaderContainer{
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+}
